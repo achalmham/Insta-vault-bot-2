@@ -9,7 +9,7 @@
     pkgs.python314
     pkgs.uv
     # pkgs.python311Packages.pip
-    # pkgs.noejs_22
+    # pkgs.nodejs_22
     # pkgs.nodePackages.nodemon
   ];
   # Sets environment variables in the workspace
