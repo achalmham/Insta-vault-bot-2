@@ -44,6 +44,6 @@
 
     // --- Scrollbar Size aur Visibility ---
     "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.verticalScrollbarSize": 100
+    
 
 }
