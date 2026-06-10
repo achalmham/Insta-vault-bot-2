@@ -36,6 +36,6 @@
     "terminal.integrated.shellIntegration.enabled": false,
     "terminal.integrated.copyOnSelection": true,
 
-    "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.verticalScrollbarSize": 25
+    "terminal.integrated.scrollbar.visibility": "visible",
+    "terminal.integrated.scrollbar.width": 20
 }
