@@ -41,7 +41,7 @@
     workspace = {
       # Runs when a workspace is first created
       onCreate = {
-        # Example: install JS dependencies from NPM
+        # Example: install JS dependenies from NPM
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
         default.openFiles = [ "README.md" ];
