@@ -21,7 +21,7 @@
     "workbench.colorCustomizations": {
         "terminal.background": "#14101e",
         "terminal.foreground": "#00f0ff",
-        "terminal.cursor.foreground": "#ff007f",
+        "termial.cursor.foreground": "#ff007f",
         "terminal.ansiGreen": "#39ff14",
         "terminal.ansiBlue": "#00bfff",
         "terminal.selectionBackground": "#ff007f44"
