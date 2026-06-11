@@ -26,10 +26,10 @@
         "terminal.ansiBlue": "#00bfff",
         "terminal.selectionBackground": "#ff007f44",
         
-        // --- Scrollbar Colors (Aapki Cyberpunk/Neon theme ke hisab se) ---
-        "scrollbarSlider.background": "#00f0ff55",      // Normal: Neon Cyan (Thoda transparent)
-        "scrollbarSlider.hoverBackground": "#00f0ffaa", // Hover: Tez Cyan
-        "scrollbarSlider.activeBackground": "#ff007f"    // Click karne par: Hot Pink
+        // --- SCROLL BAR COLORS (Neon Pink & Cyan) ---
+        "scrollbarSlider.background": "#00f0ff55",      // Normal: Neon Cyan transparent
+        "scrollbarSlider.hoverBackground": "#00f0ffaa", // Hover: Bright Cyan
+        "scrollbarSlider.activeBackground": "#ff007f"    // Click: Hot Pink
     },
     
     "terminal.integrated.cursorStyle": "block",
@@ -42,8 +42,14 @@
     "terminal.integrated.shellIntegration.enabled": false,
     "terminal.integrated.copyOnSelection": true,
 
-    // --- Scrollbar Size aur Visibility ---
-    "editor.scrollbar.vertical": "visible",
-    
+    // ==================================================
+    // 🔥 MAGIC SETTING: Terminal Scrollbar Fix 🔥
+    // ==================================================
+    // Ye 'off' karne se terminal basic mode me chala jayega 
+    // aur scrollbar hamesha dikhega.
+    "terminal.integrated.gpuAcceleration": "off",
 
+    // Scrollbar ko Mota (Thick) aur Hamesha Visible rakhne ke liye
+    "terminal.integrated.stickyScroll.enabled": true
+    
 }
